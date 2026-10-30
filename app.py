@@ -4,9 +4,11 @@ import streamlit as st
 import api
 from i18n.strings import t
 from ui.style import apply_style, lang_toggle, trend_figure
+from ui.cards import apply_cards_style
 
 st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
 apply_style()
+apply_cards_style()
 lg = st.session_state.lang
 
 # st.dialog (new) or experimental_dialog (older Streamlit)

@@ -3,6 +3,9 @@
 The dashboard is shown "as of" DEMO_WEEK, so the S1 outbreak is visible.
 The public role sees districts (ids like "D:North District"), not site names.
 """
+
+from ui.cards import apply_cards_style
+
 import copy
 
 import numpy as np
