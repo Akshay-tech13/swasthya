@@ -1,4 +1,4 @@
-# Sanket (Swasthya): worker health early-warning dashboard
+#  Swasthya Symbol: worker health early-warning dashboard
 
 An explainable, privacy-preserving early-warning dashboard for worker health.
 It joins 3 simulated signals per site per week (clinic visits, sickness absence, environment heat/dust)
