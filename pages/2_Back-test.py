@@ -1,12 +1,13 @@
 """Back-test results."""
 import streamlit as st
-
+from ui.cards import apply_cards_style
 import api
 from i18n.strings import t
 from ui.style import apply_style, privacy_notice, topbar
 
 st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
 apply_style()
+apply_cards_style()
 lg = st.session_state.lang
 topbar("Back-test")
 st.title(t("backtest_title", lg))

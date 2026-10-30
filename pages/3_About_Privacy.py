@@ -1,11 +1,13 @@
 """About + privacy rules + common health problems by occupation."""
 import streamlit as st
+from ui.cards import apply_cards_style
 
 from i18n.strings import SECTOR_INFO, t
 from ui.style import apply_style, privacy_notice, topbar
 
 st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
 apply_style()
+apply_cards_style()
 lg = st.session_state.lang
 topbar("About")
 st.title(t("privacy_title", lg))
